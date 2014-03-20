@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(214, 220, 224);
+  font-family: 'Helvetica Neue',Helvetica,sans-serif;
+}
+
+.topbar {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+a {
+  color: rgb(141, 141, 141);
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  opacity: 0.9;
+}
+
+.banner img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.banner h1 a {
+  font-size: 50px;
+  text-transform:uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.banner h1 a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.banner p {
+  margin: 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+/* Button */
+.ui-button {
+    display: inline-block;
+
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 4px 0;
+    border: 1px solid #0079FF;
+    color: #0079FF;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    background-color: transparent;
+
+    -webkit-appearance: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+}
+
+.ui-button:hover, .ui-button:active {
+    color: #fff;
+    background: #0079FF;
+}
+
+.ui-button[disabled]{
+    pointer-events: none;
+    color: #a6a6a6;
+    border-color: #a6a6a6;
+    background: #fff;
+    opacity: 0.6;
+}
