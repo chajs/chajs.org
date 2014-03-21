@@ -9,19 +9,24 @@ body {
   font-family: 'Helvetica Neue',Helvetica,sans-serif;
 }
 
+a {
+  color: rgb(141, 141, 141);
+  text-decoration: none;
+}
+
 .topbar {
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
   text-align: center;
   text-transform: uppercase;
   height: 50px;
-  font-size: 20px;
-  line-height: 50px;
 }
 
-a {
-  color: rgb(141, 141, 141);
-  text-decoration: none;
+.topbar h1 a {
+  font-size: 30px;
+  line-height: 50px;
+  text-transform:uppercase;
+  color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -40,16 +45,6 @@ a {
 .banner img:hover {
   opacity: 1;
   cursor: pointer;
-}
-
-.banner h1 a {
-  font-size: 50px;
-  text-transform:uppercase;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-.banner h1 a:hover {
-  color: rgba(0, 0, 0, 0.9);
 }
 
 .banner p {
