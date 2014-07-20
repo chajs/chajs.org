@@ -36,12 +36,15 @@ a {
   width: 40px;
 }
 
-.banner {
+section {
   text-align: center;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .banner img {
-  width: 600px;
+  width: 100%;
+  max-width: 500px;
   margin-bottom: 20px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2),0px 8px 28px rgba(0, 0, 0, 0.6),0 0 20px rgba(19, 125, 255, 0);
   cursor: pointer;
@@ -53,14 +56,18 @@ a {
   -webkit-transform: scale(1.1);
 }
 
-.banner .hero {
+.heading {
   margin: 20px;
   font-size: 28px;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 500;
   text-align: center;
-  text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.4);
 }
+
+.banner .heading {
+    color: #fff;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Button */
 .ui-button {
@@ -84,4 +91,33 @@ a {
 .ui-button:hover, .ui-button:active {
     color: #556D7C;
     background: #E2EBF2;
+}
+
+
+.tasks {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: inset 0 0 4px rgba(131, 162, 185, 0.4);
+    background: -moz-radial-gradient(#fff, #f1f8f9) #f1f8f9;
+    background: -webkit-radial-gradient(#FFF, #F1F8F9) #F1F8F9;
+}
+
+.tasks .heading {
+    color: #000;
+    text-shadow: 0 -1px 0px rgba(255, 255, 255, 0.3);
+}
+
+.packages {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    list-style: none;
+    border-top: 1px solid #E3E3E3;
+}
+
+.packages li {
+    border-bottom: 1px solid #E3E3E3;
+    padding: 10px 0;
 }
